@@ -1,0 +1,305 @@
+﻿# ───────────────────────────────
+# JetBrains IDEs (IntelliJ, Rider, etc.)
+# ───────────────────────────────
+.idea/
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
+*.sln.iml
+
+# ───────────────────────────────
+# Visual Studio
+# ───────────────────────────────
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.cachefile
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.aps
+*.plg
+*.opt
+*.vbw
+*.vbp
+*.dsw
+*.dsp
+*.pidb
+*.ipch
+*.log
+*.tlog
+*.svclog
+*.scc
+*.vspscc
+*.vssscc
+*.binlog
+*.dbmdl
+*.dbproj.schemaview
+*.rptproj.bak
+*.rdl.data
+*.rptproj.rsuser
+*_wpftmp.csproj
+*_i.c
+*_p.c
+*_h.h
+*.obj
+*.iobj
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+
+# Visual Studio generated folders
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Dd]ebugPublic/
+[Rr]elease*/
+[Rr]eleases/
+bld/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Ww][Ii][Nn]32/
+
+# MSTest, NUnit, BenchmarkDotNet
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+BenchmarkDotNet.Artifacts/
+
+# Visual Studio publishing
+publish/
+*.publishproj
+*.pubxml
+*.azurePubxml
+PublishScripts/
+Generated\ Files/
+
+# ASP.NET
+*.dbmdl
+ScaffoldingReadMe.txt
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+*.appx
+*.appxbundle
+*.appxupload
+
+# Entity Framework
+*.mdf
+*.ldf
+*.ndf
+
+# Fakes
+FakesAssemblies/
+
+# StyleCop
+StyleCopReport.xml
+
+# ReSharper, Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Coverlet, DotCover, AxoCover
+*.coverage
+*.coveragexml
+*.dotCover
+coverage*.json
+coverage*.xml
+coverage*.info
+.axoCover/*
+!.axoCover/settings.json
+
+# TFS
+$tf/
+
+# GhostDoc
+*.GhostDoc.xml
+
+# Local history
+.localhistory/
+.vshistory/
+
+# Chutzpah
+_Chutzpah*
+
+# OpenCover
+OpenCover/
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (Sass)
+.sass-cache/
+
+# InstallShield
+[Ee]xpress/
+
+# DocProject
+DocProject/buildhelp/
+DocProject/Help/
+
+# SQL Server Business Intelligence
+*.rdl.data
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Click-Once
+*.publishsettings
+
+# Windows Installer
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.lnk
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Node.js
+node_modules/
+.ntvs_analysis.dat
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# Tye
+.tye/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Paket
+.paket/paket.exe
+paket-files/
+
+# FAKE
+.fake/
+
+# Fody
+FodyWeavers.xsd
+
+# Ionide
+.ionide/
+
+# Python
+__pycache__/
+*.pyc
+
+# Backup & migration
+MigrationBackup/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# Azure
+csx/
+*.build.csdef
+ecf/
+rcf/
+
+# API specific
+/API/appsettings.json
+/API/activityhub.db
+
+# Miscellaneous
+ClientBin/
+~$*
+*~
+*.jfm
+*.pfx
+*.tar.gz
+tarballs/
+test-results/
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+*.jmconfig
+*.nvuser
+.mfractor/
+healthchecksdb
+orleans.codegen.cs
+
+# Cake (optional, uncomment if needed)
+# tools/**
+# !tools/packages.config
+
+# Bower (optional, uncomment if needed)
+# bower_components/
+
