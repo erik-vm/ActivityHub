@@ -361,3 +361,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Database files
+API/activityhub.db-shm
+API/activityhub.db-wal
